@@ -25,7 +25,7 @@ class RecipeSearchViewTest(RecipeTestBase):
             'Search for &quot;&lt;Teste&gt;&quot;',
             response.content.decode('utf-8')
         )
-        
+
     @skip('Teste com erro no self.client')
     def test_recipe_search_can_find_recipe_by_title(self):
         title1 = 'This is recipe one'
